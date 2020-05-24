@@ -1,5 +1,6 @@
 Como desenvolver programas e aplicativos para mobile?
-Os ambientes de desenvolvimento Android são ambientes de  desenvolvimento Java personalizados para o trabalho na plaforma Android.Existem muitas plataformas de desenvolvimento para esta plataforma.
+Os ambientes de desenvolvimento Android são ambientes de  desenvolvimento Java personalizados para o trabalho na plaforma Android.
+Existem muitas plataformas de desenvolvimento para esta este sistema.
 
 #Exemplos de Ambientes de Desenvolvimentos para Android
 
@@ -7,8 +8,11 @@ Os ambientes de desenvolvimento Android são ambientes de  desenvolvimento Java 
 Este Ambiente de Desenvolvimento foi criado pela IBM que o Doou para  a coomunidade para uso livre.Para desenvolver o Eclipse a IBM gastou mais de 40 milhoes,e hoje ele é o IDE mais usado no mundo.
 
 * NETBEANS : Se descata pela sua facilidade no uso e por ser pioneiro na implementação de ambientes visuais para desenvollvimento  mobile.Ele permite o desenvolvimento rapido e facil de aplicações Desktop Java,Movel e Web.
-  O NETBENS tambem é utilizado para desenvolvimento de aplicações HTML,JAVASCRIPT e CSS;
+  O NETBENS tambem é utilizado para desenvolvimento de aplicações HTML,JAVASCRIPT e CSS.
 
- *ANDROID STUDIO : É o ambiente de desenvolvimento oficial do Google,ele possui um editor visual muito rico que oferece para o usuario várias ações como:ARRASTAR,E SOLTAR COMPONENTES DA INTERFACE.
+ * ANDROID STUDIO : É o ambiente de desenvolvimento oficial do Google,ele possui um editor visual muito rico que oferece para o usuario várias ações como:ARRASTAR,E SOLTAR COMPONENTES DA INTERFACE.
 Com os ambientes disponíveis é possivel desenvolver desde aplicativos simples até sistemas complexos.Utilizando comunicação via Internet,Boothoth,Wifi,Arquivos entre outros.
-No ANDROIS STUDIO é possivel alterar as telas de modo visual tendo uma prévia de como ficarão nos smarthfone,também é possivel fazer estas verificações em varios outros dispositivos Android como:SmarthFones,Usavéis,Televisores e ate carros com dispositos Android
+No ANDROID STUDIO é possivel alterar as telas de modo visual tendo uma prévia de como ficarão nos smarthfone,também é possivel fazer estas verificações em varios outros dispositivos Android como:SmarthFones,Usavéis,Televisores e ate carros com dispositos Android entre outros.
+
+
+
