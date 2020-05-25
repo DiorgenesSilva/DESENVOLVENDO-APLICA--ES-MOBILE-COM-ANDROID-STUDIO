@@ -1,0 +1,18 @@
+ Rodando a Aplicação  por meio de um Emulador 
+ Agora,vamos rodar nossa aplicação em um emulador de aparelho Android.
+ Ao clicarmos sobre o botão Run,uma janela se abrirá para escolhermos onde vamos executarnosso aplicativo,oque podemos fazer em um emulador ou em um celular Android conectado via USB.
+ Como não temos nenhum emulador criado,essa lista aparecerávazia.Dessa forma,para rodarmos uma aplicação por meio de Emulador,precisamos primeiro criá-lo.
+
+ Emulador
+ O emulador Android  simula  um disppositivo e apresenta-o em seu computador de desenvolvimento.
+ Desta forma,ele permite que você desenvolva e teste apçicativos Android sem ter um dispositivo.
+ O Emulador Suporta: Telefone Android,Tablet Android,Wear,Dispositivo Android Tv
+ 
+ Interação entre Usuário e o Emulador
+ Você pode iniciar um aplicativo no emulador quando executar seu projeto ou pode arrastar um arquivo APK até o Emulador para instalá-lo
+ Tal como acontece com um dispositiv de hardware ,deois de instalado,o plicativo permanecerá no dispositvo virtual,ate que seja desinstalado ou substituido.
+ Se necessario,você pode testa com vários aplicativoscom seu proprio sistema e outros palicativos,trabalhando com outros.
+ Ao executarmos o aplicativo para teste ,como acontece a interação entre o usuario eo emulador Quais são os recursos disponiveis na emulação? 
+ 
+ Voce sabe como devemos interagir com o Emulador?
+Da mesma fora que utilizamos em um dispositivo de hardware só que usando o teclado ,mouse além dos botões do emulador e oa controles.
