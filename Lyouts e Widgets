@@ -1,0 +1,42 @@
+lAYOUT E WIDGETS 
+
+neste tópico,vamos conhecer outros componentes gráficos para aplicações Android.Desde modo,veremos os Views e GroupViews,bem como os layouts e widgets;
+
+CONTEÚDOS
+
+*Conceitos de View e GroupView 
+*Principáis tipos de layout para aplicação Android
+*Widgets
+
+Ao finalizar este Tópico voce sera capaz de:
+Entender a função dos objetos View
+Reconhecer e utilizar os principais layouts em aplicaçõesReconhecer widgets e aplica los as aplicações
+
+VIEW E GroupViews
+A interface gráfica utiliza os objetos View e ViewGrup,que  são herdados da classe view.
+
+VIEW
+Views são elementos base para a construção de telas utilizadas em aplcações Andrid.
+Esses componentes visuais permitem a interação com o usuário .
+
+VIEWGRUP 
+View Grup são grupos de Views e definem o seu posicionamento na tela.
+
+
+LAYOUTS 
+Os layouts representam a estrutura visual da interface do usuário onde estao os wigets 
+Podemos criar layouts de duas formas:
+
+1: Utilizando ferramenta  Drag&Drop (Arrastar e Soltar ).para isso,devemos arrastar componentes da paleta de widgets e soltá-los na posição em que desejamos que fiquem dentro da preview da atividade
+
+2: Por meio de código XML diretamente.AS vantagens de criar e editar um layout pelo XML são a rapidez do processo e a facilidade de visualização da estrutura da interface do usuário,contribuindo também com a agilidade na depuração de problemas.
+
+Os layouts  são subclasses da classe ViewGrup e são utilizados para controlar esses grupos de Views por meio de diferentes modelos,como:
+* linear Layout 
+* RelativeLayout
+* TabletÇayout, entre outros
+Dessa forma,uma conjunto de layouts forma uma activity ou um Widget  que mostra o conteúdo ao usuário;
+
+LAYOUTS MAIS UTILIZADOS 
+
+*Este layout é um ViewGrup que dispõe as Views descendentes seguidas umas dad outras,em sequencia vertical ou horizontal 
