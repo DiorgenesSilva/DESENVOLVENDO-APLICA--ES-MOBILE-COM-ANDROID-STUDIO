@@ -1,0 +1,55 @@
+ACTIVITY (ATIVIDADE)
+Neste tópico,vamos entender o conceitode interface gráfica,.
+além disso,vamos conhecer um componente da interface gráfica das apçicações mobile: a activity ou atividade:
+
+CONTEÚDOS:
+
+*Conceitos de interface gráfica ou de usuário 
+* tipos de atividade
+
+Ao finalizar este tóíco voce será capaz de:
+* Entender interface de usuario
+*Reconhecer principais tipos de atividade
+
+MEIO DE INTERAÇÃO COM O APLICATIVO 
+ 
+ O Android tabém fornece outros módulos para interfaces especiais,tais como caixas de dialogo,notificações e menus.
+ vamos conhecer as estruturas da interface grafica?
+  Atividades:
+Os aplicativos do Android sao,geralmente baseados em multiplas atividades.
+Quando uma aplicação é lançada,a atividade indicada como principal é exibida.
+Você também pode concluir a criação de um novo projeto sem acrescentar uma atividade.
+
+TIPOS  DE ATIVIDADE 
+Vários tipos de atividade podem ser selecionados.  
+
+*  Basic Activity 
+Este modelo cria uma atividade em branco com uma barra de ação inclui um título de menu de opções.
+As barras de ação podemos fornecer modos de navegação e ações ao usuário.
+
+* Empy Activity 
+Este modelo cria uma atividade me branco ,sem nenhuma barra de ação. Esta atividade é totalmente limpa.
+
+* FullScreen Activity 
+Este mod  esconde a interface de usuário do sistema para a exibição em tela cheia é alterado com uma barra de ação que aparece quando o usuário toca na tela do dispositivo .
+
+* Google AdMod Ads Activity 
+Este modelo cria uma atividade direcionada a eibição de anúncios do Google em seu aplicativo.
+
+* Google mapas Activity 
+Este modelo cria uma nova atividade com o mapa do Google.
+
+* Login Activity 
+Este modelo cria uma exibição coma tela de login,permitindo que os usuários façam login ou registrem-se com o e-mail e uma senha.  
+
+* Master/Detail Flow
+Á esquerda temos um menu 
+*Á direita,temos os detalhes do item selecionados 
+
+ENCERRAMENTO DO TOPICO 
+Neste tópico,vimos o conteúdo de interface do usuario e estrutura da interface grafica.
+Vimos também os varios tipos de atividade responsáveis pela interação com o usuário,tais como exibir mapas e anúncios,aumentar a tela,realizar login etc.
+
+Caso tenha duvidas voce pode rever o conteúdo.
+
+

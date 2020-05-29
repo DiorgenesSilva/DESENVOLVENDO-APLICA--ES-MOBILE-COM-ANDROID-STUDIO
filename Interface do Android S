@@ -19,7 +19,7 @@ Primeiramente, vamos localizar a barra de atalhos e o menu de navegação da pla
  * Make Project: Recompila o projeto atualizando as bibliotecas 
  * Run/Debug Configuration: Seleciona e configura a publicação do aplicativo 
  * Run:Roda o aplicativo 
- * Debug: Roda o aplicativo n modo deputação
+ * Debug: Roda o aplicativo no modo deputação
  * Run With Coverage: Roda o aplicativo realizando testes unitários
  * Attach debugger: adiciona um pprocesso o de depuração.
  * Rerun:  Roda o aplicativo coma mesma configuração atual.
@@ -40,8 +40,6 @@ Conheça a sua estrutura,clicando no número a seguir.
  * Java: No diretório Java,encontram-se todos os arquivos Java.  Desta forma,o diretório armazena toda a lógica do aplicativo.
  * Res: No diretório Res,estão armazenados todos os arquivos referentes a interface do usuário,podendo conter imagens,ícones,layouts etc.
  * Grade Script: No diretório Grade Script,estão armazenados todos os Scripts responsáveis pela compilção dos arquivos.
-
-
 
 
 
