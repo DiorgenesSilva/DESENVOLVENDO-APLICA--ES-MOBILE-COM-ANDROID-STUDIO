@@ -1,7 +1,7 @@
-Interface do Androiod Studio  
-
-A partir de agora, vamos conhecer a interface do Android Studio e suas ferramentas.
-Primeiramente, vamos localizar a barra de atalhos e o menu de navegação da plataforma. Clique em cada item para conhecê-lo.
+  Interface do Androiod Studio  
+ 
+ A partir de agora, vamos conhecer a interface do Android Studio e suas ferramentas.
+ Primeiramente, vamos localizar a barra de atalhos e o menu de navegação da plataforma. Clique em cada item para   conhecê-lo.
 
  BARRA DE ATALHOS 
  * Open: Abre um Arquivo ou um projeto. 
@@ -23,19 +23,19 @@ Primeiramente, vamos localizar a barra de atalhos e o menu de navegação da pla
  * Run With Coverage: Roda o aplicativo realizando testes unitários
  * Attach debugger: adiciona um pprocesso o de depuração.
  * Rerun:  Roda o aplicativo coma mesma configuração atual.
-* Stop process: pausa o aplicativo em execução.
-* Aplication preferences: Ajusta as preferências. 
-* Project Structure:Configura ajustes de estrutura do projeto 
-* Sync Gradle Files: sincrniza o projeto atualizando os arquivos Gradle.
-* SDK Manager: gerencia o SDK Android.
-* Android Device Monitor: Monitora processos de aparelho 
-* Help: Abre o painel de ajuda
-* Search: Realiza uma busca em todo Android Studio 
-* Google Login:permite logar com a conta do Google.
+ * Stop process: pausa o aplicativo em execução.
+ * Aplication preferences: Ajusta as preferências. 
+ * Project Structure:Configura ajustes de estrutura do projeto 
+ * Sync Gradle Files: sincrniza o projeto atualizando os arquivos Gradle.
+ * SDK Manager: gerencia o SDK Android.
+ * Android Device Monitor: Monitora processos de aparelho 
+ * Help: Abre o painel de ajuda
+ * Search: Realiza uma busca em todo Android Studio 
+ * Google Login:permite logar com a conta do Google.
 
-MENU DE NAVEGAÇÃO 
-No navegador que se localiza a esquerda,estão todos os arquivo-fonte do projeto.
-Conheça a sua estrutura,clicando no número a seguir. 
+   MENU DE NAVEGAÇÃO 
+ No navegador que se localiza a esquerda,estão todos os arquivo-fonte do projeto.
+ Conheça a sua estrutura,clicando no número a seguir. 
  * Manisfests: No diretório Manifests,está o arquivo com a configuração do aplicativo.Por exemplo,a configuração do ícone do aplicativo .
  * Java: No diretório Java,encontram-se todos os arquivos Java.  Desta forma,o diretório armazena toda a lógica do aplicativo.
  * Res: No diretório Res,estão armazenados todos os arquivos referentes a interface do usuário,podendo conter imagens,ícones,layouts etc.
