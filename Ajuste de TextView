@@ -1,0 +1,10 @@
+Ajuste de TextView
+Antes de rodarmos nosso aplicativo de teste, vamos ajustar o conteúdo texto (TextView) digitando um nome "TesteInicial" ou "Google".
+
+Nesse caso, vamos perceber que qualquer alteração realizada no TextView será também realizada no aplicativo.
+
+Se clicarmos uma vez sobre o TextView, todas as propriedades disponíveis para esse componente serão habilitadas na aba propriedades.
+
+Se clicarmos duas vezes sobre o TextView, alguns campos, com as principais propriedades visuais do componente, serão habilitados.
+
+Vamos rodar a aplicação?
