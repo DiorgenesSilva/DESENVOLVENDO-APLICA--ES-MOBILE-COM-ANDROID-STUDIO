@@ -1,0 +1,67 @@
+
+Meio de Interação com o Aplicativo
+Já temos a estrutura de nosso aplicativo, mas está faltando uma parte muito importante.
+
+Você já parou para pensar em como os usuários vão interagir com seu aplicativo? Dê um palpite: 
+Por meio de uma interface gráfica.
+
+O Android também fornece outros módulos para interfaces especiais, tais como caixas de diálogo, notificações e menus. 
+Vamos conhecer as estruturas da interface gráfica?
+
+Atividades
+As atividades são os componentes associados às telas com que os usuários interagem em um aplicativo.
+Os aplicativos do Android são, geralmente, baseados em múltiplas atividades.
+Quando uma aplicação é lançada, a atividade indicada como principal é exibida.
+Você também pode concluir a criação de um novo projeto sem acrescentar uma atividade.
+
+
+TIPOS DE ATIVIDADE 
+
+1. Basic Activity
+Este modelo cria uma atividade em branco, com uma barra de ação. A barra de ação inclui um título e um menu de opções.
+As barras de ação podem fornecer modos de navegação e ações ao usuário.
+
+2. Empty Activity
+Este modelo cria uma atividade em branco, sem nenhuma barra de ação. Essa atividade é totalmente limpa.
+
+3. Fullscreen Activity
+Este modelo esconde a interface do usuário do sistema para exibição em tela cheia. Por padrão, o modo de tela cheia é alternado com uma barra de ação que aparece quando o usuário toca na tela do dispositivo.
+
+4. Google AdMod Ads Activity
+Este modelo cria uma atividade direcionada à exibição de anúncios do Google em seu aplicativo.
+
+
+5. Google Maps Activity
+Este modelo cria uma nova atividade com um mapa do Google
+
+ 
+6. Login Activity
+Este modelo cria uma exibição com uma tela de login, permitindo que os usuários façam login ou registrem-se com um e-mail e uma senha
+
+7. Master/Detail Flow
+Este modelo divide a tela em duas partes:
+
+À esquerda, temos um menu.
+À direita, temos os detalhes do item selecionado.
+
+8. Navigation Drawer Activity
+Este modelo de atividade cria um navegador à esquerda, onde podem ser exibidas as opções de navegação do aplicativo.
+
+9. Scrolling Activity
+Este modelo de atividade consiste em uma barra de ação e um conteúdo que permitem deslizar a tela horizontal e/ou verticalmente.
+
+10. Settings Activity
+Este modelo cria uma atividade de preferências, com uma lista de definições.
+
+
+11. Tabbed Activity
+Este modelo cria uma atividade em branco, com uma barra de ação e um elemento de navegação.
+
+Tipos de Atividade
+Os tipos de atividade são muito úteis, certo?
+
+No próximo tópico, vamos conhecer os tipos de layout e os widgets!
+
+Até agora, conhecemos vários tipos de activity (atividade).
+
+
