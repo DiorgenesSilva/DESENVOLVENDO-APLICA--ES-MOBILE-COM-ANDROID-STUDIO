@@ -1,0 +1,61 @@
+Rodando a Aplicação por meio de um Emulador
+Agora, vamos rodar nossa aplicação utilizando um emulador de aparelho Android.
+
+Ao clicarmos sobre o botão Run, uma janela se abrirá para escolhermos onde vamos executar nosso aplicativo, o que podemos fazer em um emulador ou em um celular Android conectado via USB.
+
+Como não temos nenhum emulador criado, essa lista aparecerá vazia. Dessa forma, para rodarmos uma aplicação por meio de emulador, precisamos primeiro criá-lo.
+
+Você sabe o que é um emulador e como criá-lo? Vamos adiante para saber!
+
+Requisitos Mínimos para o Bom Desempenho do Emulador
+Antes de criarmos o emulador, precisamos atentar para os requisitos mínimos necessários a seu bom desempenho.
+
+Um bom hardware é indispensável para conseguirmos rodar o emulador de forma “agradável”.
+
+Conheça os requisitos mínimos do sistema estipulados pelo Google, entrando no ícone abaixo, do Android Studio.
+
+https://developer.android.com/studio#Requirements
+
+A seguir, vamos entender melhor a função do emulador.
+
+Emulador
+O emulador Android simula um dispositivo e apresenta-o em seu computador de desenvolvimento. Dessa forma, ele permite que você desenvolva e teste aplicativos Android sem ter um dispositivo.
+
+O emulador suporta:
+Telefone Android
+Tablet Android
+Wear
+Dispositivos Android TV
+
+Alguns tipos de dispositivos já vêm predefinidos para que possamos começar a trabalhar rapidamente, mas você também pode criar suas próprias definições de dispositivos.
+
+Interação entre Usuário e Emulador
+Você pode iniciar um aplicativo no emulador quando executar seu projeto ou pode arrastar um arquivo APK até o emulador para instalá-lo.
+
+Tal como acontece com um dispositivo de hardware, depois de instalado, o aplicativo permanecerá no dispositivo virtual até que seja desinstalado ou substituído.
+
+Se necessário, você pode testar com vários aplicativos, com o seu próprio sistema e outros aplicativos, trabalhando uns com os outros.
+
+APK: É um conjunto de arquivos utilizados para instalar e executar aplicações no sistema Android. Compara-se um arquivo .apk do Android com um .exe do Windows, ou seja, arquivos de funcionamento dos respectivos Sistemas Operacionais.
+
+
+A seguir, vejamos como ocorre a interação entre usuário e emulador.
+
+Interação entre Usuário e Emulador
+Ao executarmos o aplicativo para teste, como acontece a interação entre o usuário e o emulador? Quais são os recursos disponíveis na emulação? Vamos descobrir?  
+
+vOCE sABE COMO DEVEMOS INTERAGIR COM O EMULADOR?
+Do mesma   modo que utilizamos com os dispositivosde Hardware.So que usando o mouse e taclado alem dos botões do Emulador e controles.
+
+O Emulador suporta botões de Hardware Virtuais e telas sensiveis ao toque.
+Incluindo as operações de 2 dedos. Bem como botões direcinais do IPAD,TRAKBOLS,RODAS  e varios sensores. 
+Voce pode,dinamicamente redimensionar a janela do Emulador conforme o necessario,usar Zoom In e Zoom Out,auterar a orientação e ate mesmo  tirar ScremShot.
+
+Quando o seu aplicativo,estiver sendo executado no Emulador,voce pode  utilizar os serviços da plataforma Android para invocar outros aplicativos,acessar a rede,Reproduzir Audio e Video,Aceitar a entrada de Audio,Armazenar e Recupar Dados,notificar usuario  e Criar transições graficas e temas.
+
+O Emulador possuem controles que permitem que o usuario,facilmente .
+Faça chamadas telefonicas,Envie Mensagem de texto,Especifique a Localização do dispositivo,simule a leitura de impressao digitais,especifique a velocidade da rede e seu status e simule propriedades de bateria
+
+O Emulador pode simular um cartao de dados SD de armazenamento de dados internos.
+Voce pode arrastar um arquivo, como um arquivo de dados e videos para armazena-lo.
+
