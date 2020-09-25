@@ -1,0 +1,13 @@
+Testes com Aparelho Android
+No processo de desenvolvimento de um aplicativo, é altamente sugerido utilizar um aparelho Android conectado via USB, pois o simulador pode demorar muito para realizar um teste, dependendo do hardware de sua estação de trabalho.
+
+Vamos ver, a seguir, como podemos realizar os testes utilizando um aparelho Android conectado via USB.
+
+Primeiramente,conecte o aparelho em uma porta USB de seu computador. Na tela de seu aparelho,aparcera um aviso para permitir a depuração. Selecione a opção"Sempre peermitir a depuração apartir deste |Computador"e,em seguida,clique em OK.
+
+Clique no botão Run para abrir a janela onde voce poderá escolher o Emulador ou os dispositivos com que quer rodar o aplicativo. Veja que,na lista de aparelhos conectados( Conected Devices),aparecerão o seu Emulador(se estiver ligado) e o seu aprelho Android.
+
+Selecione seu Aparelho Android e clique em OK. Veja que o Android Studio vai compilar o aplicativo e intala-lo em seu aparelho Android.Ao termino do procedimento,seu aplicativo sera aberto em seu aparelho Android.
+
+
+
