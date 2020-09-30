@@ -124,6 +124,84 @@ Nesta linha de codigo estamos definindo a versao do banco de dados
 Esta versao serve para realizar um "update"no banco caso seja feita alguma atualização na estrutura do banco de dados.
 Dessa forma,basta alterarmos o numero da versao para o numero posterior para que,automaticamente,ele exclua a tabela existente e crie uma nova com a estrutura atualiada.
 
+Agora que temos a estrutura do nosso banco de dados pronta, vamos criar a classe “BancoDeDados”.
+
+Essa classe será responsável pelas instruções SQL que vamos utilizar para listar, consultar, inserir, editar e excluir as anotações.
+
+Clique com o botão direito do mouse sobre a pasta javamobile,minhasanotaçoes e selecione a opçãonew > Java Classe
+
+Uma janela para criar uma nova classe sera aberta 
+
+Preencha o campo Name com "BancoDeDados" e altere o campo para Package para "javamobile.minhasanotacoes.Bancodedados"
+
+Dessa forma, sera criada a classe "Banco de dados"no pacote  "javamobile.minhasanotacoes.Bancodedados" 
+
+Vamos alterá-la para manter a classe "SQLiteOpenHelper",definir o nome do banco de dados,CRIAR O script SQL para criar a tabela e outro script para remover a tabela,que sera executado caso necessario.
+
+Agora vamos criar o método "CriarAnotacao",que recebera dois paramentros  um do tipo String",um titulo e um conteudo,e adicionara ambos ao banco  de dados.vejamos:
+
+public booleans criarAnotacoes (String titulo, String Conteudo  
+   banco = gerenciarbanco.getWritableDatabase(); //nesta linha estamos requisitando o banco de dados emmodo leitra e escrita.
+
+ /* Nessas 3 linhas.estamos crianso um objetodo tipo"ContentValues",com o conteudo da anotaçao e seu tiulo. */
+   ContentValues Valores = new ContentValues();
+   Valores.put("titulo",titulo;
+   Valores.put("conteudo",conteudo);
+
+   iong resultado = banco.insert("anotacoes", null ,valores); // nesta lista estamos inserindo umanovaanotação nobanco de dados 
+
+   banco.close(); // Nesta linha estamos fechando a conexao com o banco de dados.
+
+   return resultaso > 0 ; // E ,na linha 27 ,estamos retornando "true",se a inserçao for realizada com sucesso,ou "false",caso ocorra alguma falha.
 
 
- 
+   Métodos Criar e Cancelar
+
+Para finalizarmos nossa tela de criação de anotações, vamos criar os métodos que serão chamados por meio dos cliques nos botões Criar e Cancelar.
+
+Abra arquivo CriarAnotacao.java e adicione os metodos "voltar" e "criarAnotavao"
+
+package javamobile.minhasanotacoes;
+
+import ...
+public class CriarAnotacao extends AppComparacaoActivity { 
+
+     @Override 
+     protecd void onCreate(Bundle savedanotacoes) { 
+            super.oncreate (savedInstanceState) {
+            setConvertView(p.layout.Activity_criar_anotacao) ;   
+    }
+    /* Daqui ate o fechamento ,temos o metodo "voltar ",que ira abrir a janela do nosso aplicatico 
+     public void voltar (View v) {
+            Intent startNewActivity = new Intent 9thi TelaInicial.Class);
+            StartaActivity(startNewActivity) ;
+
+     }    */
+
+     public void CriarAnotacao (View v) { 
+            BancoDeDados bancoDeDados = new bancoDeDados (getBasecontent())? // nesta linha,estamos instaciando a classe"bancoDedados"]
+
+            /* 
+            EditText titulo = (editText) findViewByid(R.id.campoconteudo); 
+            EditText conteudo = (EditText) findViewByid(R.id.compoConteudo);
+            Nessas duas linhas estamos obtendo os compos digitaveis e setando em variaveis    
+                 */
+
+            booleans resultado = Bancodedados.CriarAnotacao(titulo.ggettext().toString(),conteudo.gettext().toString()) ; // estamos lendo oque foi digitado nos campos editaveis e passando esses dados como parametros para o metodo "CriarAnotacao" da classe "BancoDeDados".Desssa forma,sera feita a inserçao no banco,que retornará um valor "true" ou "false". Criaremos um  Toast para avisar o usuario sobre  a inserçao da anotaçao.
+
+            if (resultado|) {
+                    Toast.maketext(getaplicationContext(),"Anotação criada com sucesso ", Toast.LENGTH_LONG).show();
+            }else{ 
+                Toast.maketext(getaplicationContext(),"infelizmente ocorreu um erro,tente novamente",Toast.LENGTH_LONG).show(); 
+            }
+
+            voltar(v) ; // Na linha estamos chmando o metodo "Voltar",que ira  carregar a tela inicial do nosso aplicativo novamente.
+
+   Agora ,deve ra ir ate o arquivo de layout da tela CriarAnotacao para setar as açoes a serem realizadas por meio do clique nos botões Criar e Cancelar.
+
+Apresentação de Toast
+Pronto, a rotina para criar e cancelar anotações está codificada. Agora, podemos testar e, realmente, criar uma anotação que será armazenada no banco de dados.
+
+
+
+     }
