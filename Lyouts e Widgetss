@@ -1,0 +1,30 @@
+Layouts e Widgets
+Neste tópico, vamos conhecer outros componentes gráficos para aplicações Android. Desse modo, veremos os Views e GroupViews, bem como os layouts e widgets.
+
+Conteúdos:
+
+* Conceitos de View e GroupView
+* Principais tipos de layout para aplicação Android
+Widgets.
+
+Ao finalizar este tópico, você será capaz de:
+
+* Entender a função dos objetos View.
+* Reconhecer e utilizar os principais layouts em aplicações.
+* Reconhecer widgets e aplicá-los às aplicações.
+
+Introdução
+Vamos avançar um pouco mais em nosso aprendizado sobre a interface gráfica das aplicações mobile? 
+Agora, entenderemos o que são os objetos View, bem como os layouts e os widgets. 
+Você já conhece esses elementos?
+Vamos adiante para descobrir!
+
+View e ViewGroup
+A interface gráfica utiliza os objetos View e ViewGroup, que são herdados da classe View. Veja a definição de cada um desses objetos, clicando em cada imagem a seguir.
+
+Views
+Views são elementos base para a construção de telas utilizadas em aplicações Android. Esses componentes visuais permitem a interação com o usuário
+
+ViewGroups
+ViewGroups são grupos de Views e definem o seu posicionamento na tela.
+
