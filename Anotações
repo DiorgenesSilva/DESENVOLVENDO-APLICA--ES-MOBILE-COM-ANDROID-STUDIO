@@ -1,0 +1,56 @@
+
+Aplicativo de Anotações
+Para começar, vamos criar um projeto novo no Android Studio e uma atividade vazia (Empty Activity) com o nome de TelaInicial.
+
+O Android Studio irá criar o projeto com a tela separada em dois arquivos.   
+
+TelaInicial.java
+Localizado na pasta app/java, é o arquivo que possui a programação da tela. Nela vamos criar as variáveis e seus métodos.
+
+activity_tela_inicial.xml
+Localizado na pasta app/res/layout, é o arquivo responsável pela diagramação dos componentes. Nela vamos criar todos os componentes e definir suas propriedades.
+
+Também vamos criar um ListView, onde colocaremos todas as anotações e um botão que irá abrir a tela para criar uma anotação.
+crie um novo projeto no Android Studio
+Em seguida crie uma atividade vazia(Empry_activity)pode ser nome  TelaInicial
+Abra o Activity.tela_inicial.xml
+Vamos criar u ListView onde colocaremos todas as anotações,e um botao que ira abrir a tela para criar uma anotação.
+
+<xml version="1.0"ecoding="utf-8"?>
+<Linearlyout xmlns:android="http//achemas.android.com/apk/res/android" 
+        xmls:yools="http.achemas.android.com/tools"
+        android:id="@id/activity_tela_inicial"
+        android:layout_width"math_parent"
+        android:paddingBotton="16dp"
+        android:paddingleft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="Vertical"
+        tools:context="javamobile.minhasanotacoes.TelaInicial">
+
+        <TextView
+                android:id="@+id/titulo"
+                android:layout_width="math_parent"
+                android:layout_height="wrap_content"
+                android:text="Notas"
+                android:layout_alingParentTop="true"
+                android:layout_alingParentStart="true"
+                android:textSize="24sp"
+                android:textAlignment"center" />
+   // APARTIR DESTA LINHA IREMOS ICREMENTAR O TEXT VIEW( id listaDeNotas)  ,ou seja,um lista que serao mostradas ao usuarios todas as anotações que estao armazenadas no banco de dados \\  
+
+         <ListView
+                android:id="@+id/listaDeNotas"
+                android:layout_width="wrap_parent"
+                android:layout_height="200dp"
+                android:layout_weight="0.92" />
+
+          <Button 
+                android:id="@+id/BotaoCriarAnotaçao"
+                android:text="Criar nova anotação"
+                android:layout_width="math_parent"
+                android: layout_height="wrap_content" />
+</Linearlayout>               
+
+Tela de Anotação
+Vamos, agora, desenvolver uma tela cuja função será a de criar uma anotação

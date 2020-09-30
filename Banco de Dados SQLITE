@@ -1,0 +1,99 @@
+Banco de Dados SQLITE
+Neste tópico, vamos criar um aplicativo de anotações. Para isso, vamos aprender a criar tabelas, além de consultar, inserir e excluir dados utilizando o banco de dados SQLite.
+
+Conteúdos:
+
+* Banco de dados SQLite
+* Criação de aplicativo de anotações
+* Criação de tabelas
+* Consulta, inserção e exclusão de dados. 
+
+Ao finalizar este tópico, você será capaz de:
+
+* Criar um aplicativo de anotações.
+* Inserir tabelas, e consultar, inserir e excluir dados da 
+* aplicação por meio do banco de dados SQLite.
+
+
+Importância da Armazenagem de Dados
+No desenvolvimento de um aplicativo, muitas vezes, precisamos armazenar alguns dados. 
+Para gerenciar esses dados e disponibilizá-los no aplicativo, precisamos utilizar um banco de dados.
+
+Podemos armazenar dados utilizando bancos de dados web, como o SQL Server. No entanto, nesse caso, precisamos ter um sistema que faça a comunicação do aplicativo com o banco de dados. 
+Podemos também utilizar o SQLite.
+
+Você sabe o que é o SQLite? Vamos descobrir!
+
+SQLite
+O SQLite é um banco de dados que fica armazenado no próprio aparelho do usuário. Por conta disso, não precisa de nenhum sistema para realizar as transações. 
+Cada aplicativo pode ter vários bancos de dados, que não são visíveis para os outros aplicativos instalados no aparelho.
+
+Neste tópico, aprenderemos a criar tabelas, além de consultar, inserir e excluir dados utilizando um banco de dados SQLite. 
+Vamos lá?
+
+Classes da API Utilizadas
+Tanto para criar tabelas quanto para consultar, inserir e excluir dados, utilizaremos, basicamente, duas classes da API de banco de dados do SDK do Android.  
+
+SQLiteDatabase
+Classe com as funções de gerenciamento dos dados.
+ 
+SQLiteOpenHelper
+Classe com as funções de criação do banco e controle de versão, para verificar se existe a necessidade de atualizar a estrutura do banco de dados.
+
+Para demonstrarmos como funcionam essas classes, vamos criar um aplicativo de anotações. Por meio desse aplicativo, será possível criar uma anotação, visualizar todas as notas cadastradas em uma listagem, além de realizar a edição e exclusão de uma anotação.
+
+Aplicativo de Anotações
+Para começar, vamos criar um projeto novo no Android Studio e uma atividade vazia (Empty Activity) com o nome de TelaInicial.
+
+O Android Studio irá criar o projeto com a tela separada em dois arquivos.   
+
+TelaInicial.java
+Localizado na pasta app/java, é o arquivo que possui a programação da tela. Nela vamos criar as variáveis e seus métodos.
+
+activity_tela_inicial.xml
+Localizado na pasta app/res/layout, é o arquivo responsável pela diagramação dos componentes. Nela vamos criar todos os componentes e definir suas propriedades.
+
+Também vamos criar um ListView, onde colocaremos todas as anotações e um botão que irá abrir a tela para criar uma anotação.
+crie um novo projeto no Android Studio
+Em seguida crie uma atividade vazia(Empry_activity)pode ser nome  TelaInicial
+Abra o Activity.tela_inicial.xml
+Vamos criar u ListView onde colocaremos todas as anotações,e um botao que ira abrir a tela para criar uma anotação.
+
+<xml version="1.0"ecoding="utf-8"?>
+<Linearlyout xmlns:android="http//achemas.android.com/apk/res/android" 
+        xmls:yools="http.achemas.android.com/tools"
+        android:id="@id/activity_tela_inicial"
+        android:layout_width"math_parent"
+        android:paddingBotton="16dp"
+        android:paddingleft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="Vertical"
+        tools:context="javamobile.minhasanotacoes.TelaInicial">
+
+        <TextView
+                android:id="@+id/titulo"
+                android:layout_width="math_parent"
+                android:layout_height="wrap_content"
+                android:text="Notas"
+                android:layout_alingParentTop="true"
+                android:layout_alingParentStart="true"
+                android:textSize="24sp"
+                android:textAlignment"center" />
+   // APARTIR DESTA LINHA IREMOS ICREMENTAR O TEXT VIEW( id listaDeNotas)  ,ou seja,um lista que serao mostradas ao usuarios todas as anotações que estao armazenadas no banco de dados \\  
+
+         <ListView
+                android:id="@+id/listaDeNotas"
+                android:layout_width="wrap_parent"
+                android:layout_height="200dp"
+                android:layout_weight="0.92" />
+
+          <Button 
+                android:id="@+id/BotaoCriarAnotaçao"
+                android:text="Criar nova anotação"
+                android:layout_width="math_parent"
+                android: layout_height="wrap_content" />
+</Linearlayout>               
+
+Tela de Anotação
+Vamos, agora, desenvolver uma tela cuja função será a de criar uma anotação
