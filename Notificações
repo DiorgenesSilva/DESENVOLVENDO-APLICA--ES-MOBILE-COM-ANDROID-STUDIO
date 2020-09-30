@@ -1,0 +1,85 @@
+Notificações
+Neste tópico, veremos a função das notificações em uma aplicação. Nesse sentido, vamos conhecer e aplicar alguns tipos de notificações.
+
+Conteúdos:
+ 
+* Conceito de notificação em uma aplicação
+* Utilização de diferentes tipos de notificação
+* Recurso Toast.
+
+Ao finalizar este tópico, você será capaz de:
+
+* Compreender o conceito de notificação para aplicação.
+* Utilizar as notificações em uma aplicação.
+* Aplicar o recurso Toast.
+
+Definição
+De modo geral, sabemos o que é uma notificação, certo? Mas, no contexto das aplicações, o que define uma notificação?
+
+* Uma notificação é uma mensagem exibida ao usuário, esteja o aplicativo aberto ou fechado. *
+
+A partir de agora, vamos aprender a utilizar o recurso notificação nas aplicações.
+
+Visualização de Notificações
+Para informar ao usuário que existe uma notificação, o Android apresentará um ícone no topo da tela. Para visualizar as informações dessa notificação, o usuário precisará abrir o menu de notificações, que pode ser acionado a qualquer momento.  
+
+1:> Inicialmente, são apresentados ícones no topo da tela.
+2:> Ao arrastarmos a barra de notificações para baixo, são apresentadas as informações sobre as notificações
+
+Vejamos, a seguir, um exemplo em que, ao clicarmos no botão Criar uma notificação, iremos disparar uma notificação para o usuário.
+
+1:> Clique na imagem para ampliá-la. Você poderá visualizar a tela com o botão que irá criar e disparar a notificação.
+2:> Ao clicarmos no botão, a notificação aparecerá no topo da tela, conforme mostra a imagem a seguir:
+3:> Ao abrirmos a aba de notificações, arrastando a barra superior para baixo, aparecerão os detalhes da notificação.
+
+Toast
+Podemos definir o que acontecerá quando o usuário clicar na notificação. Por exemplo, o clique pode abrir o aplicativo e levar o usuário a determinada atividade.
+
+Também podemos criar notificações temporárias por meio de Toasts. Esse é um recurso muito simples e útil para o Android. As mensagens temporárias não geram nenhuma interação com o usuário e são exibidas no rodapé do aparelho.
+
+Os Toasts são utilizados como um recurso para exibir mensagens com uma simples informação. 
+
+Toast – Exemplo
+Vejamos, a seguir, um exemplo de Toast que pode ser acionado ao clicarmos nos seguintes botões:
+
+:> Toast Curto! – vai disparar um Toast que ficará visível durante um período menor.
+:> Toast Longo! – vai disparar um Toast que permanecerá visível durante um período maior. 
+
+Vamos entender como os Toasts funcionam na prática?
+
+<?xml version="1.0" encoding="utf-9"?>
+<RelaiveLayout xmlns:android="http/achemas.android.com/apk/res/android"
+        xmlns:tools="http://achemas.android.com/tools"android:layout_width="math_parent"
+        android:layout_heigth="math_parent" android:paddingBottom=@dimen/activity_vertical_margin"
+        andoid:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="javamobile.application03.mainactivity">
+
+<TextView android:layout_width="math_parent" andoid:layout_heigth="wrap_content" 
+        android:text="Exemplo  de Toast"
+        android:TextSize="20dp"
+        android:textAlignment="#000"
+        android:id="@+id/textView"?>
+
+ <Button        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap-conent"
+        android:text="Toast Curto!"
+        android:id="@id/button1"
+        android:layout_marginTop="50dp" 
+        android:onClick="onclickbuttonShort"
+        android:layout_below="@+id/textview"
+        androis:layout_centerHorizontal="true" />
+
+<Button 
+        android:layout_width="wrap_content" 
+        android:layout_heigth"wrap_content"
+        android:text="Toast Longo"
+        android:id="@+id/butto2"
+        android:layout_marginTop"50dp"
+        android:onClick="onclickButtonLong"
+        android:layout_below"@+id/button1"
+        android:layout_centerHorizontal="true"
+</RelativeLayout>
+ 

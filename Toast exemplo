@@ -1,0 +1,14 @@
+Toast
+Podemos definir o que acontecerá quando o usuário clicar na notificação. Por exemplo, o clique pode abrir o aplicativo e levar o usuário a determinada atividade.
+
+Também podemos criar notificações temporárias por meio de Toasts. Esse é um recurso muito simples e útil para o Android. As mensagens temporárias não geram nenhuma interação com o usuário e são exibidas no rodapé do aparelho.
+
+Os Toasts são utilizados como um recurso para exibir mensagens com uma simples informação. 
+
+Toast – Exemplo
+Vejamos, a seguir, um exemplo de Toast que pode ser acionado ao clicarmos nos seguintes botões:
+
+:> Toast Curto! – vai disparar um Toast que ficará visível durante um período menor.
+:> Toast Longo! – vai disparar um Toast que permanecerá visível durante um período maior. 
+
+ 
