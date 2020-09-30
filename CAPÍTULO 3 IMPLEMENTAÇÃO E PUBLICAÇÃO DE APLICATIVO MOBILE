@@ -1,3 +1,32 @@
 CAPÍTULO 3
 IMPLEMENTAÇÃO E PUBLICAÇÃO DE APLICATIVO MOBILE
 
+Requisições HTTP
+Neste tópico, veremos como carregar arquivos externamente. Para isso, analisaremos um exemplo de uso de um webservice.
+
+Conteúdos:
+
+*Requisição HTTP.
+
+Ao finalizar este tópico, você será capaz de:
+
+*Configurar gurar o aplicativo para utilizar a internet.
+
+Links 
+http =  Como Carregar Arquivos Externamente
+A partir de agora, veremos como é possível carregar arquivos externamente. Desse modo, poderemos carregar arquivos .xml, .json e outros.
+
+Como exemplo, vamos utilizar um webservice disponível na internet que retorna o valor do Dólar em relação ao Real.
+
+Como Carregar Arquivos Externamente
+No exemplo que vamos ver agora, ao clicarmos no botão Carregar, será realizada uma requisição ao webservice e, em seguida, será mostrado o valor atualizado do Dólar por meio de um Toast.
+
+Para isso, precisamos configurar o aplicativo, para que ele tenha permissão para utilizar a internet (Wi-Fi ou 3G).
+
+Abra o arquivo Androidmanifest.xml,que esta no diretorio Manisfests
+Altere o xmlincluindo o node"uses-permission".
+<usues-permission android:name="android:permission.INTERNET" />
+Com estapermiçao realizada,o aplicativo tem permissao para utilizar a internet em seu aprelho ( Wi-Fi ou 3G).
+Dessa forma podemos executar os proximos passos.
+
+
