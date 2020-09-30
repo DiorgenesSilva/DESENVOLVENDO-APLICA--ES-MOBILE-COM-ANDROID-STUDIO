@@ -97,3 +97,33 @@ Vamos criar u ListView onde colocaremos todas as anotações,e um botao que ira 
 
 Tela de Anotação
 Vamos, agora, desenvolver uma tela cuja função será a de criar uma anotação
+
+Crie uma atividade vazia (Empry Activity) clicando com o botao direito do mouse sobre a pasta app.
+
+Em seguida,selecione as opções New> Activity > Empthy Activity.
+No campo Activity Name,digite o nome da tela (Activity)> neste caso,vamos nomeá-la como "CriarAnotação"
+Abra o arquivo Activity_criar_anotaçao.xml para criar os  componentes.
+
+Classe GerenciarBanco
+
+Vamos criar, agora, as duas classes que serão responsáveis pelo banco de dados, a classe “GerenciarBanco“, que será responsável por criar o banco de dados, e a tabela que vamos utilizar para armazenar as nossas anotações.
+
+Para criar a classe"Gerenciarbanco",clique com o botao direito do mouse sobre a pasta javamobile.minhasanotacoes e selecione a opção New > Java class.
+Uma janela para definir o nome da nova classe sera aberta 
+preencha o camponame com "gerenciarbanco"e altere o campo package para "javamobile.minhasanotaçoes.bancodedado".
+Depois de criar a classe,vamos alterá-la para estender a classe "SQLiteOpenhelper",definor o nome do banco de dados,criar bo script SQL para criar a tabela e outro script para remover a tabela,que sera executado caso necessario.
+
+exemplo:
+
+public static final String NOME BANCO ="Bancodedados.db";
+Neta linha de codigo acima definimos o nome do banco de dados
+
+public stayic final int VERSAO = 1;
+Nesta linha de codigo estamos definindo a versao do banco de dados 
+
+Esta versao serve para realizar um "update"no banco caso seja feita alguma atualização na estrutura do banco de dados.
+Dessa forma,basta alterarmos o numero da versao para o numero posterior para que,automaticamente,ele exclua a tabela existente e crie uma nova com a estrutura atualiada.
+
+
+
+ 

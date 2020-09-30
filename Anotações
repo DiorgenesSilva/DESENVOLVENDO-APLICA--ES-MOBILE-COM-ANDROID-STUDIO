@@ -54,3 +54,16 @@ Vamos criar u ListView onde colocaremos todas as anotações,e um botao que ira 
 
 Tela de Anotação
 Vamos, agora, desenvolver uma tela cuja função será a de criar uma anotação
+
+Crie uma atividade vazia (Empry Activity) clicando com o botao direito do mouse sobre a pasta app.
+
+Em seguida,selecione as opções New> Activity > Empthy Activity.
+No campo Activity Name,digite o nome da tela (Activity)> neste caso,vamos nomeá-la como "CriarAnotação"
+Abra o arquivo Activity_criar_anotaçao.xml para criar os  componentes.
+
+Definição de uma Ação
+Vamos, agora, voltar ao arquivo de layout da tela TelaInicial (activity_tela_inicial.xml) para definirmos uma ação de clique no botão Criar nova anotação, que irá carregar a tela “CriarAnotacao”.
+
+Adicione o parametro  onClick no botão = botaonovaAnotação 
+vejamos como devem ficar  o arquivo delayout activity_tela_inicial.xml e o arquivo de programaçao da  TelaInicial.java:
+
