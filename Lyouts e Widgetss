@@ -28,3 +28,84 @@ Views são elementos base para a construção de telas utilizadas em aplicaçõe
 ViewGroups
 ViewGroups são grupos de Views e definem o seu posicionamento na tela.
 
+
+Layouts
+Os layouts representam a estrutura visual da interface do usuário, onde estarão os widgets 
+Mas como construímos os layouts das aplicações? Podemos criar um layout de duas formas. 
+
+Drag e Drop (arrastar e soltar) 
+Utilizando a ferramenta Drag & Drop (Arrastar e Soltar). Para isso, devemos arrastar os componentes da paleta de widgets e soltá-los na posição em que desejamos que fiquem dentro do preview da atividade.
+
+Por meio de codigo XML
+Por meio do código XML diretamente. As vantagens de criar e editar um layout diretamente pelo XML são a rapidez do processo e a facilidade de visualização da estrutura da interface do usuário, contribuindo também com a agilidade na depuração de problemas. 
+
+Ainda há muito mais a conhecer sobre os layouts. Vamos dar continuidade?
+
+
+Layouts
+Os layouts são subclasses da classe ViewGroup e são utilizados para controlar esses grupos de Views por meio de diferentes modelos, como:
+
+LinearLayout
+RelativeLayout
+TableLayout, entre outros.
+Dessa forma, um conjunto de layouts forma uma Activity ou um widget que mostra o conteúdo ao usuário.
+
+A seguir, vamos conhecer os layouts mais utilizados!
+
+Layouts mais Utilizados
+Agora, vejamos, exemplos dos layouts mais utilizados nos aplicativos. Clique em cada um dos layouts para conhecê-los.
+
+> Linear Layout 
+> Table Layout 
+> Relative Layout 
+> Grid Layout 
+> FrameLayout
+  
+LinearLayout
+Este layout é um ViewGroup que dispõe as Views descendentes seguidas umas das outras, em sequência vertical ou horizontal.
+
+TableLayout
+Este layout organiza as Views em linhas e colunas. Dessa forma, os elementos parecem estar dentro de uma tabela. 
+O componente TableRow é utilizado para definir os blocos inseridos.
+ 
+RelativeLayout
+A posição dos elementos descendentes é estabelecida por meio da relação entre eles, podendo um descendente ser definido em relação a outro. 
+Veja que cada componente possui um id, sendo referenciado pelo próximo elemento. Dessa forma, a view deverá posicionar os elementos um abaixo do outro.
+
+GridLayout
+Este layout é a junção do LinearLayout com o TableLayout, ou seja, consiste em um conjunto de linhas e colunas que podem ser apresentadas na orientação horizontal e vertical.
+
+FrameLayout
+Este layout apresenta os elementos sobrepostos, considerando sempre como referência de posicionamento a base no canto superior esquerdo da tela.  
+
+Viu os exemplos de layouts? Na sequência, vamos conhecer mais um componente gráfico: o widget!
+
+
+Widgets
+Uma aplicação Android é constituída de componentes gráficos conhecidos como widgets. Esses componentes são fornecidos pelo SDK Android (SDK – Software Development Kit, ou, traduzido, Kit de Desenvolvimento de Programas do Android) e derivam de Views, possuindo propriedades básicas como largura e altura, posicionamento e margens.
+
+Vejamos, a seguir, os principais widgets utilizados em aplicativos Android.
+
+Widget TextView
+Componente responsável pela exibição de textos. Normalmente, é conhecido como label em outras linguagens de programação. 
+Nesse widget, existem quatro estilos predefinidos: Plain TextView, Large Text, Medium Text e Small Text.
+
+Widget EditText
+Campo de texto editável onde podem ser definidos diferentes tipos de entrada, como texto, número, data, e-mail, entre outros.
+
+Widget Button
+Botão de texto simples que, ao ser acionado pelo usuário, realiza uma ação a ele atribuída. 
+Existem dois tipos de botão: Button e Small Button.
+
+Widget ImageButton
+Semelhante ao widget Button. No entanto, ele não mostra um texto, e sim uma imagem.
+ 
+Widget CheckBox
+Componente que permite a seleção de mais de uma opção, entre as opções apresentadas. As opções são identificadas com nomes diferentes.
+
+Widget RadioButton
+Componente que permite a seleção de apenas uma opção, entre as opções apresentadas. Todas as opções são identificadas por um único nome (mesmo nome).
+
+Widget ToggleButton
+Componente que permite que um botão se mantenha acionado – ou seja, conserve seu estado “pressionado” – após o clique.
+
