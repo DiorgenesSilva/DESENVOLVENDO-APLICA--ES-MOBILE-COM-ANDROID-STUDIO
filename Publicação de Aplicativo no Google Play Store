@@ -60,7 +60,7 @@ Pacote APK
 No menu superior do Android Studio,em Build,selecione a opção generate signed APK..
 Se houveer projetos abertos aparecerá a janela abaixo ,clique em Next. Caso contrarioseguir para a proxima etapa .
 
-Iraoaparecer campos a serem preenchidos.
+Ira aparecer campos a serem preenchidos.
 No campo KeyStore path,precisamos indicar um certificado. Esse certificado precisa ter a extensao JKS.
 Caso nao tenha,clique em Create New para cria-lo. Caso ja tenha criado,clique me Choose existing...para selecioná-lo.
 
@@ -81,4 +81,14 @@ Na  proxima tela,vamos determinar onde esta gravado o APK (APK Dstination Folder
 Ao terminar aparecrá umamensagem no na parte superior direita do Android Studio,com o resultado.
 
 
+Desenvolvedor Google Play 
+Para realizar o upload no Google Play, você precisa ter uma conta no Google e tornar-se um desenvolvedor Google Play (Google Play developer). 
+Para tanto, será necessário preencher um formulário e realizar o pagamento único de uma taxa (aproximadamente, U$ 25,00).
+ 
+No site Google Play Developer Console, você terá todas as informações necessárias para se cadastrar e realizar a publicação de seu aplicativo.
 
+
+Encerramento do Tópico
+Neste tópico, aprendemos a gerar o pacote final para publicação e distribuição do aplicativo, passando pelos processos de preparação do aplicativo para upload, criação de pacote APK, teste da aplicação, upload do arquivo, assinatura da chave de segurança, até sua efetiva publicação.
+
+ 
