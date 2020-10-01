@@ -1,0 +1,53 @@
+Listagem e Apresentação de Anotações
+Vamos, agora, listar as anotações que estão cadastradas no banco de dados e apresentá-las ao usuário na tela inicial. Para tanto, vamos criar o método que irá realizar a consulta ao banco, obtendo todas as anotações. Clique nos números a seguir para acessar as demonstrações desses procedimentos.
+
+Metodo de Consulta 
+Abra o "BancoDeDados" para criar o método qu ira realizar a consulta no banco,obtendo todas anotações.
+Vamos criar o método "Obter informações"
+
+Configuração da Lista de Anotações
+Vamos voltar à classe “TelaInicial” para configurarmos a lista de apresentação das anotações.
+
+Para finalizarmos nosso aplicativo, falta inserirmos as funcionalidades, editar uma anotação e excluir uma anotação.
+
+Edição e Exclusão de Anotação
+Vamos, agora, configurar o aplicativo para que, ao selecionar uma anotação na tela inicial, o usuário seja levado à página onde poderá editar ou excluir essa anotação.
+
+Além disso, vamos aprender a ajustar a classe EditarAnotacao para receber parâmetros, carregar as informações dessa anotação e preencher os campos editáveis, possibilitando sua atualização. 
+
+Vejamos como podemos realizar a integração da tela inicial com a página de edição e exclusão, bem como ajustar a classe EditarAnotacao.
+ 
+ Busca da Anotações
+Agora, só falta criarmos o método que irá buscar, no banco de dados, uma anotação pelo ID. Para isso, abra a classe BandoDeDados e adicione o método consultarAnotacaoPeloId, conforme demonstrado a seguir:
+
+Resultado Final
+Nosso aplicativo de anotações está pronto! Agora, podemos inserir, editar e deletar uma anotação. Vamos ver como ficou o resultado final? Clique nos números para obter mais informações.
+
+Tela inicial do aplicativo :> 
+Tela inicial do aplicativo com a lista das anotações cadastradas e um botão para criar uma nova anotação.
+
+Nova anotação :> 
+ Tela para cadastrar uma nova anotação, com os campos "Título" e "Conteúdo", e os botões para criar ou cancelar o cadastro da nova anotação.
+ Após o cadastro de uma nova anotação, o aplicativo irá apresentar ao usuário um Toast com a mensagem da operação e o levará, novamente, à tela inicial do aplicativo, onde haverá uma lista com as anotações cadastradas.
+
+ Edição de anotação
+Na tela inicial do aplicativo, quando o usuário selecionar uma anotação, o aplicativo vai apresentar uma tela com os campos "Título" e "Conteúdo" preenchidos com os dados atuais.
+Nesta tela, com os campos de título e conteúdo, o usuário poderá editar as informações da anotação.
+Ao clicar em GRAVAR, o usuário receberá um Toast com a mensagem da operação e será levado à tela inicial do aplicativo, onde estará a lista com as anotações atualizadas.
+
+Exclusão de anotação
+Na tela de edição de anotações, também existe o botão EXCLUIR, que, ao ser acionado, irá remover a anotação selecionada do banco de dados.
+Após clicar no botão EXCLUIR, o usuário também receberá um Toast com a mensagem da operação e será levado à tela inicial do aplicativo, onde estará a lista com as anotações atualizadas.
+
+
+Fechamento
+Neste tópico, criamos um aplicativo de anotações.
+
+Para isso, aprendemos a criar tabelas, e a consultar, inserir e excluir dados utilizando o banco de dados SQLite.
+
+ Encerramento do Tópico
+Neste tópico, aprendemos a criar tabelas, além de consultar, inserir e excluir dados utilizando o banco de dados SQLite.
+
+Caso ainda tenha dúvidas, você pode voltar e rever o conteúdo.
+
+Vamos prosseguir em nossos estudos? Siga para o próximo tópico.

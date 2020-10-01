@@ -1,0 +1,25 @@
+Publicação de Aplicativo no Google Play Store
+
+Neste tópico, vamos aprender a gerar o pacote final para publicação e distribuição do aplicativo.
+
+Conteúdos:
+
+* Preparação do aplicativo para upload
+* Distribuição do aplicativo via Google Play.
+
+Ao finalizar este tópico, você será capaz de:
+
+* Gerar o pacote final do aplicativo para publicação.
+* Distribuir o aplicativo via Google Play.
+
+Preparação do Aplicativo para Upload
+Neste tópico, veremos todos os passos a serem seguidos para preparar o aplicativo para upload e pedir a liberação usando o Android Studio.
+
+O pacote final do aplicativo é o APK. Vamos ver como assinamos o aplicativo para enviar ao Google Play.
+
+Preparação do Aplicativo para Upload
+Após finalizarmos o desenvolvimento de um aplicativo, precisamos empacotá-lo em um APK, que, basicamente, é um pacote zip. Normalmente, esse pacote possui uma estrutura própria. 
+
+:> resources.arsc
+Arquivo que contém outros arquivos pré-compilados, como xmls.
+
