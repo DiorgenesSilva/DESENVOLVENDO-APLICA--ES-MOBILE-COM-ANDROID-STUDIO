@@ -23,3 +23,62 @@ Após finalizarmos o desenvolvimento de um aplicativo, precisamos empacotá-lo e
 :> resources.arsc
 Arquivo que contém outros arquivos pré-compilados, como xmls.
 
+:> assets/
+Diretório de elementos do aplicativo. É a mesma pasta do nosso projeto no Android Studio
+
+:>AndroidManifest.xml
+Arquivo que contém as informações sobre o aplicativo.
+
+:>lib/ 
+Diretório que contém o aplicativo compilado.
+
+:> res/
+Diretório que contém os recursos da aplicação, como imagens, textos etc.
+
+:> META-INF/
+Diretório que contém informações sobre certificados.
+
+:>classes.dex
+Arquivo que contém informações compiladas do aplicativo.
+
+Publicação do Aplicativo
+Você acaba de criar seu próprio aplicativo! Mas como vai fazer para publicá-lo? 
+
+ :> Meios de distruiçao
+Os aplicativos Android podem ser distribuidos de varias formas.GooglePlay,ApleStore,Black\berryWorld,OviStore ou ate mesmo Sites ou E-mails.
+Contudo antes de serem publicados eles devem estar assinados com uma "Chave de Segurança". 
+Existem duas formas de exportar um APK. Uma versão de testes e outra para publicação . As duas versões possuem asmesmas estruturas que vimos anteriormente mas as chaves usadas sao diferentes. 
+Lembre-se de guardar a sua chave em um local seguro ,pois se voce perder a chave nao poderá mais atualizar a sua versão do APK nas lojas virtuais.
+Testes
+Aplicativo Assinado,chega a hora dos testes,ainda antes do lançamnto da versão,precisamos nosso aplicativo com as configurações minimas e mais novas.Aquelas que foram determinadas na criação do projeto .
+Depois de fazermos todos os testes precisamos definir corretamente os valores para o codigo da versao e  onome da versão no arquivo de configuraçao do aplicativo.
+Atenção: Lembre-se que o codigo da versao deve ser um numero inteiro.Caso surjam outras  versoes,elas precisam ser sempre maiores que as versões anterioes.
+android:versionCode="1" android:versionCode"1.0"
+Se atentando com os processos de certicaçoes e testes para realizar o processo de publicação do APK com sucesso e sem nenhum problema.
+
+Pacote APK
+No menu superior do Android Studio,em Build,selecione a opção generate signed APK..
+Se houveer projetos abertos aparecerá a janela abaixo ,clique em Next. Caso contrarioseguir para a proxima etapa .
+
+Iraoaparecer campos a serem preenchidos.
+No campo KeyStore path,precisamos indicar um certificado. Esse certificado precisa ter a extensao JKS.
+Caso nao tenha,clique em Create New para cria-lo. Caso ja tenha criado,clique me Choose existing...para selecioná-lo.
+
+Ao criar um certificado,voce precisará inserir algumas informações solicitadas,entre elas informaçoes referente a chave.
+
+Abaixo da validade,voce precisará digitar informações pessoais,como nome,empresa,cidade,etc.
+
+Key Store path :> informe o endereço aonde ira gravar o certificado.
+Password :> Informme a senha de assinatura.Em seguida,confirme a senha,digitando-a novamente.
+Alias :> Informe o nome que a sua chave tera. Por exemplo ."releasekey".
+Password :> Informme a senha de assinatura.Em seguida,confirme a senha,digitando-a novamente.
+Validity :>Informe a validade do certificado em anos 
+Ao completar os seus dados clique me OK.
+Ao  voltar para a tela anterior,ja com os dads do certificadopreenchidos,clique em Next para prosseguir.
+
+Na  proxima tela,vamos determinar onde esta gravado o APK (APK Dstination Folder) e o tipo de exportação (Build Type).Clique em finsh para gerar APK assinado .
+
+Ao terminar aparecrá umamensagem no na parte superior direita do Android Studio,com o resultado.
+
+
+
